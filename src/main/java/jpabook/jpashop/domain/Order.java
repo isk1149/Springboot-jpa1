@@ -15,7 +15,7 @@ import static javax.persistence.FetchType.*;
 @Entity
 @Table(name = "orders")
 @Getter @Setter
-public class Order {
+public class Order {//
     @Id @GeneratedValue
     @Column(name = "order_id")
     private Long id;

@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @RunWith(SpringRunner.class) //junit에게 스프링과 관련된 테스트를 할 것이라 알려줌
 @SpringBootTest
-class MemberRepositoryTest {
+class MemberRepositoryTest {//
 
 //    @Autowired
 //    MemberRepository memberRepository;

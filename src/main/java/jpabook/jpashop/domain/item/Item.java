@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 @Getter @Setter
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn //@DiscriminatorColumn(name = "TYPE") ()내용 빼면 default로 DTYPE이 사용됨
+@DiscriminatorColumn //@DiscriminatorColumn(name = "TYPE") ()내용 빼면 default로 DTYPE이 사용됨//
 public abstract class Item {
     @Id
     @GeneratedValue
