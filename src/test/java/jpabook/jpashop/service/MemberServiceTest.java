@@ -15,7 +15,7 @@ import javax.persistence.EntityManager;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Transactional
-public class MemberRepositoryTest {
+public class MemberServiceTest {
 
     @Autowired
     MemberService memberService;
