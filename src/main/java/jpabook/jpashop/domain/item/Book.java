@@ -11,4 +11,10 @@ import javax.persistence.Entity;
 public class Book extends Item {
     private String author;
     private String isbn;
+
+    public void changeItem(String name, int price, int stockQuantity, String author, String isbn) {
+        super.changeItem(name, price, stockQuantity);
+        this.author = author;
+        this.isbn = isbn;
+    }
 }

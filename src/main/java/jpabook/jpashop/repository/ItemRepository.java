@@ -16,7 +16,7 @@ public class ItemRepository {
         if (item.getId() == null) { //완전 새로운 item. id값이 없음
             em.persist(item);
         } else {                    //DB에서 조회한 item
-            em.merge(item);
+            em.merge(item); //실무에서 거의 안쓰는듯?
         }
     }
 
